@@ -1,14 +1,15 @@
 ![myPhoto](img/AvaRSS.jpg "My photo")
+
 ---
 # Borys Maksymov
 
 ## Contact Info
-* **Location:** Zaporozhye, Ukraine
-* **Phone:** +38-063-808-83-84
-* **E-mail:** radiatorzp@gmail.com
-* **Telegram:** @FullForward
-* **Discord:** Borys#4139
-* **GitHub:** BorysMax
+**Location:** Zaporozhye, Ukraine
+**Phone:** +38-063-808-83-84
+**E-mail:** radiatorzp@gmail.com
+**Telegram:** @FullForward
+**Discord rs-school:** Borys#4139
+**GitHub:** [BorysMax](https://github.com/BorysMax)
 
 ## About me
 I am an engineer and project manager in the mechanical engineering and service industries. All my life I have been interested in programming. I have experience in digital marketing and tourism business organization. I want to become a professional in new IT technologies.
@@ -43,5 +44,6 @@ I have no front-end experience, but I administer several of my sites and have be
 Zaporozhye Technical University - aircraft engines and power plants
 
 ## Languages
-Ukrainian and Russian - native
-English - A2
+_Ukrainian and Russian_ - native
+
+_English_ - A2

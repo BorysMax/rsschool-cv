@@ -5,10 +5,15 @@
 
 ## Contact Info
 **Location:** Zaporozhye, Ukraine
+
 **Phone:** +38-063-808-83-84
+
 **E-mail:** radiatorzp@gmail.com
+
 **Telegram:** @FullForward
+
 **Discord rs-school:** Borys#4139
+
 **GitHub:** [BorysMax](https://github.com/BorysMax)
 
 ## About me

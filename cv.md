@@ -1,25 +1,27 @@
-Borys Maksymov
+![myPhoto](img/AvaRSS.jpg "My photo")
+---
+# Borys Maksymov
 
-Contact Info
-Location: Zaporozhye, Ukraine
-Phone: +38-063-808-83-84
-E-mail: radiatorzp@gmail.com
-Telegram: @FullForward
-Discord: Borys#4139
-GitHub: BorysMax
+## Contact Info
+* **Location:** Zaporozhye, Ukraine
+* **Phone:** +38-063-808-83-84
+* **E-mail:** radiatorzp@gmail.com
+* **Telegram:** @FullForward
+* **Discord:** Borys#4139
+* **GitHub:** BorysMax
 
-About me
+## About me
 I am an engineer and project manager in the mechanical engineering and service industries. All my life I have been interested in programming. I have experience in digital marketing and tourism business organization. I want to become a professional in new IT technologies.
 
-Skills
-Google Analytics
-Google Ads
-Google Tag Manager
-Google Console
-Social Media Management Tools
+## Skills
+* Google Analytics
+* Google Ads
+* Google Tag Manager
+* Google Console
+* Social Media Management Tools
 
-Code example
-
+## Code example
+```
 function createPhoneNumber(array) {
     let string = "("
     for (let i = 0; i < 10; i++) {
@@ -32,14 +34,14 @@ function createPhoneNumber(array) {
     }
 return string;
 }
+```
 
-
-Work Experience
+## Work Experience
 I have no front-end experience, but I administer several of my sites and have been actively involved in their development
 
-Education
+## Education
 Zaporozhye Technical University - aircraft engines and power plants
 
-Languages
+## Languages
 Ukrainian and Russian - native
 English - A2

@@ -73,9 +73,9 @@
 .header__img-wrap {
 	position: relative;
 	width: 116px;
-	height: 116px;
+	height: 130px;
 	overflow: hidden;
-	border-radius: 50%;
+	border-radius: 3%;
 }
 .header__img {
 	position: absolute;

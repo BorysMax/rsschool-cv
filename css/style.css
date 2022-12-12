@@ -10,6 +10,11 @@
 	width: 100%;
   margin: 0;
   padding: 0;
+
+	@media (max-width: 670px) {
+		background: white;
+	}
+
 }
 
 .wrapper {
@@ -285,8 +290,10 @@
 .footer__socials-list {
 	padding-top: 30px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
+	gap: 70px;
 }
 
 .footer__socials-item {
@@ -331,4 +338,3 @@
 .footer__git-icon {
 	height: 30px;
 }
-

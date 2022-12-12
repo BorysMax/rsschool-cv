@@ -249,6 +249,32 @@
 	margin-top: 16px;
 }
 
+.projects-item img{
+	height: 100px;
+}
+
+.projects-item img:hover{
+	opacity: 40%;
+	transition: ease-in-out .3s;
+	content: "Go explore site";
+}
+
+.projects-list {
+	margin-left: 24px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	row-gap: 5px;
+}
+
+.projects-item {
+	position: relative;
+}
+
+.cite {
+	padding-left: 24px;
+}
+
 
 /*----------FOOTER----------*/
 

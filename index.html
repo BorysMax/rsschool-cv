@@ -25,48 +25,63 @@
                 </div>
             </section>            
             <section class="right-white">
-                <div class="header__img-wrap">
-                    <img class="header__img" src="img/AvaRSS.jpg" alt="Photo">
+                <nav class="header_nav">
+                    <ul class="header_nav-list">
+                        <li class="header_nav-item"><a href="#education" class="header_nav-link">EDUCATION</a></li>
+                        <li class="header_nav-item"><a href="#slills" class="header_nav-link">SKILLS</a></li>
+                        <li class="header_nav-item"><a href="#experience" class="header_nav-link">EXPERIENCE</a></li>
+                        <li class="header_nav-item"><a href="#projects" class="header_nav-link">PROJECTS</a></li>
+                        <li class="header_nav-item"><a href="#languages" class="header_nav-link">LANGUAGES</a></li>
+                    </ul>
+                </nav>
+                <div class="header__person">
+                    <div class="header__img-wrap">
+                        <img class="header__img" src="img/AvaRSS.jpg" alt="Photo">
+                    </div>
+                    <ul class="header__contacts">
+                        <li class="header__contacts-item">
+                            <img class="header__contacts-icon" src="img/mobile.png" alt="tel-icon">
+                            <a class="header__contacts-link" href="tel:+380638088384">+38-063-808-83-84</a>
+                        </li>
+                        <li class="header__contacts-item">
+                            <img class="header__contacts-icon" src="img/email.png" alt="mail-icon">
+                            <a class="header__contacts-link" href="mailto:radiatorzp@gmail.com">radiatorzp@gmail.com</a>
+                        </li>
+                        <li class="header__contacts-item">
+                            <img class="header__contacts-icon" src="img/telegram.png" alt="telegram-icon">
+                            <a class="header__contacts-link" href="https://t.me/FullForward">@FullForward</a>
+                        </li>
+                        <li class="header__contacts-item">
+                            <img class="header__contacts-icon" src="img/discord.png" alt="discord-icon">
+                            <a class="header__contacts-link" href="https://discordapp.com/users/Borys#4139/">Borys#4139</a>
+                        </li>
+                        <li class="header__contacts-item">
+                            <img class="header__contacts-icon" src="img/linkedin.png" alt="linkedin-icon">
+                            <a class="header__contacts-link" href="https://www.linkedin.com/in/borys-maksymov/">linkedin.com/borys-maksymov</a>
+                        </li>
+                        <li class="header__contacts-item">
+                            <img class="header__contacts-icon" src="img/github.png" alt="git-icon">
+                            <a class="header__contacts-link" href="https://github.com/BorysMax">github.com/BorysMax</a>
+                        </li>
+                        <li class="header__contacts-item">
+                            <img class="header__contacts-icon" src="img/www.png" alt="site-icon">
+                            <a class="header__contacts-link" href="https://www.rocknrope.com.ua/">www.rocknrope.com.ua</a>
+                        </li>
+                    </ul> 
                 </div>
-                <ul class="header__contacts">
-                    <li class="header__contacts-item">
-                        <img class="header__contacts-icon" src="img/mobile.png" alt="">
-                        <a class="header__contacts-link" href="">+38-063-808-83-84</a>
-                    </li>
-                    <li class="header__contacts-item">
-                        <img class="header__contacts-icon" src="img/email.png" alt="">
-                        <a class="header__contacts-link" href="">radiatorzp@gmail.com</a>
-                    </li>
-                    <li class="header__contacts-item">
-                        <img class="header__contacts-icon" src="img/telegram.png" alt="">
-                        <a class="header__contacts-link" href="">@FullForward</a>
-                    </li>
-                    <li class="header__contacts-item">
-                        <img class="header__contacts-icon" src="img/discord.png" alt="">
-                        <a class="header__contacts-link" href="">Borys#4139</a>
-                    </li>
-                    <li class="header__contacts-item">
-                        <img class="header__contacts-icon" src="img/linkedin.png" alt="">
-                        <a class="header__contacts-link" href="https://www.linkedin.com/in/borys-maksymov/">linkedin.com/borys-maksymov</a>
-                    </li>
-                    <li class="header__contacts-item">
-                        <img class="header__contacts-icon" src="img/github.png" alt="">
-                        <a class="header__contacts-link" href="https://github.com/BorysMax">github.com/BorysMax</a>
-                    </li>
-                </ul> 
             </section> 
         </header>
 
         <main class="main">
            <section class="left-grey">
                 
-                <h2 class="main__h2">Education</h2>    
+                <h2 id="education" class="main__h2">Education</h2>    
                 <div class="left-grey-line"></div>
                 <p class="main__course">Aircraft engines and power plants</p>
                 <p class="main__years">1991-1998</p>
                 <p class="main__text">Zaporozhye National Technical University</p>
 
-                <h2 class="main__h2">Skills</h2>    
+                <h2 id="slills" class="main__h2">Skills</h2>    
                 <div class="left-grey-line"></div>
                 <ul class="main__list">
                     <li class="main__list-item">Google Analytics</li>
@@ -78,7 +93,7 @@
                     <li class="main__list-item">JavaScript</li>
                 </ul>
 
-                <h2 class="main__h2">Languages</h2>    
+                <h2 id="languages" class="main__h2">Languages</h2>    
                 <div class="left-grey-line"></div>
                 <ul class="main__list">
                     <li class="main__list-item">Ukrainian - native</li>
@@ -107,7 +122,7 @@
                      I have experience in digital marketing and tourism business organization. 
                      I want to become a professional in new IT technologies</p>
                 
-                <h2 class="main__h2">Work Experience</h2>      
+                <h2 id="experience" class="main__h2">Work Experience</h2>      
                 <div class="right-grey-line"></div>
                 <p class="main__text">I have no front-end experience, but I administer several 
                     of my sites and have been actively involved in their development</p>    
@@ -117,7 +132,7 @@
                 <pre><code class="main__code">
      function createPhoneNumber(array) {
        let string = "("
-         for (let i = 0; i < 10; i++) {
+         for (let i = 0; i &lsaquo; 10; i++) {
            string += array[i];
              if (i === 2) {
                string += ") ";
@@ -129,19 +144,44 @@
      }
                 </code></pre>
 
+                <h2 id="projects" class="main__h2">Projects</h2>      
+                <div class="right-grey-line"></div>
+                <p class="main__text">I have no front-end experience, but I administer several 
+                    of my sites and have been actively involved in their development</p>    
+
+                <h2 class="main__h2">Interests</h2>      
+                <div class="right-grey-line"></div>
+                <p class="main__text">I have no front-end experience, but I administer several 
+                    of my sites and have been actively involved in their development</p>    
+                
                 <h2 class="main__h2">Extra</h2>      
                 <div class="right-grey-line"></div>
                 <p class="main__text">I have no front-end experience, but I administer several 
                     of my sites and have been actively involved in their development</p>    
+    
                                      
            </section>
         </main>
-        <footer>
+        <footer class="footer">
            <section class="left-grey">
-            
+
            </section> 
            <section class="right-white">
-            
+            <ul class="footer__socials-list">
+                <li class="footer__socials-item">
+                    <a class="footer__socials-link" href="https://rs.school/js/">
+                        <img class="footer__school-icon" src="img/rs_school_js.svg" alt="school-icon">
+                    </a>
+                </li>
+                <li class="footer__socials-item">
+                    <span class="footer__year">2022</span>
+                </li>
+                <li class="footer__socials-item">
+                    <a class="footer__socials-link" href="https://github.com/BorysMax">
+                        <img class="footer__git-icon" src="img/git.png" alt="git-icon">
+                    </a>
+                </li>
+            </ul>    
            </section>
         </footer>        
     </div>

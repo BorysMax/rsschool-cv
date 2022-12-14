@@ -1,3 +1,4 @@
-# https://BorysMax.github.io/rsschool-cv/cv
+# rsschool-cv
+https://BorysMax.github.io/rsschool-cv/cv
 
-# https://BorysMax.github.io/rsschool-cv/
+https://BorysMax.github.io/rsschool-cv/

@@ -256,7 +256,7 @@
 .projects-item img:hover{
 	opacity: 40%;
 	transition: ease-in-out .3s;
-	content: "Go explore site";
+	content: "Go explore site!";
 }
 
 .projects-list {
